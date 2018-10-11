@@ -4,7 +4,6 @@
  *  Created on: 2018Äê7ÔÂ24ÈÕ
  *      Author: admin
  */
-
 #include "test_point2d.h"
 
 void test_Point2D()
@@ -39,7 +38,7 @@ void test_Point2DRotate()
 	point2d p(t);
 	point2d r;
 	p.show();
-	FLOAT theta = 90. * pi / 180.;
+    FLOAT theta = 90. * PI / 180.;
 	p = p.rotate(theta);
 	p.show();
 }

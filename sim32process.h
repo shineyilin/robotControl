@@ -20,7 +20,7 @@ public:
 	sim32process();
 	virtual ~sim32process();
 public:
-	//��ʼ������
+    //
 	bool initParamData();
 	//set parameter entry
 

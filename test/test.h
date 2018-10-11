@@ -29,5 +29,8 @@ void testMatrixGaussMethod			();
 #include "mapmethod/mapmethod.h"
 void testMapMethod                  ();
 
+#include "connect/server.h"
+void testServerConnect              ();
+
 
 #endif /* TEST_TEST_H_ */

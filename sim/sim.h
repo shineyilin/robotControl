@@ -4,8 +4,8 @@
 
 #include<math.h>
 
-#ifndef pi
-#define pi M_PI
+#ifndef PI
+#define PI M_PI
 #endif
 
 #ifndef E

@@ -64,7 +64,8 @@ bool serial_connect::isOpen()
 
 void serial_connect::getSerialData()
 {
-    QBitArray serial_data = this->serial_port->readAll();
+    QByteArray serial_data = this->serial_port->readAll();
+    this->serial_rev_data += serial_data;
 }
 
 

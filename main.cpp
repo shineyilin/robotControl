@@ -18,6 +18,7 @@
 #include "test/test.h"
 #include "sim/sim.h"
 #include "mapmethod/mapmethod.h"
+#include "connect/server.h"
 
 using namespace std;
 using namespace sim;
@@ -27,7 +28,7 @@ using namespace sim;
 
 int main(int argc, char *argv[])
 {
-//  QCoreApplication a(argc, argv);
+    QCoreApplication a(argc, argv);
 //  testSim();
 //	testMatrixSolver();
 //	testPoint2DProcess();
@@ -36,12 +37,14 @@ int main(int argc, char *argv[])
 //	outPrint(3);
 //	outPrint("fg");
 //  integrate int_1;
+//  testMapMethod();
 
-    testMapMethod();
+    testServerConnect();
 
     cout << "!!!end program!!!" << endl; // prints !!!Hello World!!!
+
     //return a.exec();
-    return 0;
+    //return 0;
 }
 
 

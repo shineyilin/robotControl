@@ -1,6 +1,6 @@
 QT -= gui
 QT += serialport
-
+QT += network
 CONFIG += c++14 console
 CONFIG -= app_bundle
 
@@ -46,7 +46,8 @@ SOURCES += \
     main.cpp \
     sim32process.cpp \
     connect/serial_connect.cpp \
-    basealgo/my_deque.cpp
+    basealgo/my_deque.cpp \
+    connect/server.cpp
 
 HEADERS += \
     basealgo/arraytype.h \
@@ -81,4 +82,5 @@ HEADERS += \
     test/test_point2d.h \
     sim32process.h \
     connect/serial_connect.h \
-    basealgo/my_deque.h
+    basealgo/my_deque.h \
+    connect/server.h

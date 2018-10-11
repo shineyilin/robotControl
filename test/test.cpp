@@ -110,3 +110,8 @@ void testMapMethod()
 }
 
 
+
+void testServerConnect()
+{
+    server server_test;
+}

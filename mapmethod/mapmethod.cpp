@@ -38,7 +38,7 @@ void mapmethod::test()
     for (FLOAT angle = 0; angle <= 90; angle+=10 )
     {
 
-        theta = angle * pi/180;
+        theta = angle2radian(angle);
         point_1.x =angle;
         point_1.y =1* sin(theta);
 
@@ -47,7 +47,6 @@ void mapmethod::test()
     this->setCurveDataList(point_2d_input_list);
     this->getCurveDataList();
 }
-
 
 void mapmethod::setCurveDataList(POINT2D_LIST point_2d_data_list)
 {

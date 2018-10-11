@@ -28,7 +28,8 @@ private:
     bool        serial_open_flag;
     uint32      serial_count;
     map<uint32, QString> com_name_map;
-    QBitArray   rev_serial_data;
+
+    QByteArray  serial_rev_data;
 
 //    Q_OBJECT
 };

@@ -20,17 +20,17 @@ using namespace std;
 
 #define println(x) 	cout<<x<<endl
 #define print(x)	cout<<x
+#define Log(x)      print("LOG: ");println(x)
+#define ERROR(x)    print("ERROR: ");println(x);
 
-
-
-#ifndef pi
+#ifndef PI
 #include <math.h>
-#define pi 3.14159265358979323846
+#define PI 3.14159265358979323846
 #endif
 
 
-#define angle2radian(x) x*pi/180
-#define radian2angle(x) x*180./pi
+#define angle2radian(x) x*PI/180
+#define radian2angle(x) x*180./PI
 
 
 
