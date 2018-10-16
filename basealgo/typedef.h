@@ -10,6 +10,8 @@
 #include <vector>
 #include <iostream>
 
+#define __debug_socket_connect__
+
 
 #include <math.h>
 #include <stdio.h>

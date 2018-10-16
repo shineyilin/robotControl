@@ -47,7 +47,8 @@ SOURCES += \
     sim32process.cpp \
     connect/serial_connect.cpp \
     basealgo/my_deque.cpp \
-    connect/server.cpp
+    connect/server.cpp \
+    basealgo/logtofile.cpp
 
 HEADERS += \
     basealgo/arraytype.h \
@@ -83,4 +84,5 @@ HEADERS += \
     sim32process.h \
     connect/serial_connect.h \
     basealgo/my_deque.h \
-    connect/server.h
+    connect/server.h \
+    basealgo/logtofile.h

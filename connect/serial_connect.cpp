@@ -18,6 +18,7 @@ bool serial_connect::openSerialConnect()
     if ( serial_port->open(QSerialPort::ReadWrite) )
     {
         this->serial_open_flag = true;
+        connect(serial_port,SIGNAL(readyRead()),this,SLOT(getSerialData()));
         return true;
     }
     else
